@@ -7,6 +7,7 @@ body {
   font-weight: 100;
   text-align: center;
   color: rgb(49, 58, 58);
+  
 }
 
 a {
@@ -31,4 +32,18 @@ a::before {
 a:hover::before {
   bottom: 0;
   height: 100%;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.unordered {
+  align-self: center;
+  color: antiquewhite;
+}
+
+div.list-container {
+  text-align: center;
 }
